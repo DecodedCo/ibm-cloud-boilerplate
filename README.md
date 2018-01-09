@@ -2,7 +2,7 @@
 
 ## Login
 
-1. `cf login -a https://api.us-east.bluemix.net -u amadeus@decoded.com -o DecodedUSA -s cloud`
+1. `cf login -a https://api.ng.bluemix.net -u amadeus@decoded.com -o DecodedUSA -s immersion`
 
 ## Deploy
 
