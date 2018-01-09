@@ -35,6 +35,11 @@ if (!cfEnv.getAppEnv().isLocal) {
     console.log("Authenticating...");
     next();
   });
+  app.get("/logout", function(req,res,next) {
+    req.session.destroy(function (err) {
+      res.redirect('/');
+    });
+  });
 
 } // end if production
 
